@@ -6,6 +6,10 @@
  */
 
 require('./bootstrap');
+import Vuetify from 'vuetify'
+Vue.use(Vuetify);
+import 'vuetify/dist/vuetify.min.css' // Ensure you are using css-loader
+
 
 window.Vue = require('vue');
 
